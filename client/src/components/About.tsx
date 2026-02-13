@@ -47,7 +47,7 @@ export default function About() {
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-gray-400 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               <img
                 alt="João Victor Portrait"
-                className="relative rounded-2xl shadow-xl w-full aspect-square object-cover transition-all duration-500"
+                className="relative rounded-2xl shadow-xl w-full aspect-square object-cover"
                 src={profilePicture}
               />
             </div>
