@@ -1,3 +1,5 @@
+import profilePicture from "/img/Eu.jpeg";
+
 export default function About() {
   const skills = [
     {
@@ -40,14 +42,13 @@ export default function About() {
     <section className="py-20 bg-white dark:bg-gray-900" id="about">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-          {/* Profile Image */}
           <div className="md:col-span-4 lg:col-span-3">
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-gray-400 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               <img
                 alt="João Victor Portrait"
                 className="relative rounded-2xl shadow-xl w-full aspect-square object-cover grayscale hover:grayscale-0 transition-all duration-500"
-                src="/img/Eu.jpeg" // path is relative to public folder root (keep the file under public/img)
+                src={profilePicture}
               />
             </div>
             <div className="mt-8 space-y-4">
@@ -66,9 +67,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* Profile Content */}
           <div className="md:col-span-8 lg:col-span-9 space-y-10">
-            {/* Professional Profile */}
             <div>
               <h2 className="font-serif text-3xl font-bold mb-6 flex items-center">
                 <span className="w-8 h-1 bg-primary mr-4 rounded-full"></span>
@@ -84,7 +83,6 @@ export default function About() {
               </p>
             </div>
 
-            {/* Technical Skills */}
             <div>
               <h3 className="font-serif text-2xl font-bold mb-6 text-gray-800 dark:text-gray-100">
                 Technical Skills
