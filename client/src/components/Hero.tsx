@@ -16,7 +16,7 @@ export default function Hero() {
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 max-w-2xl leading-relaxed">
             Specializing in robust backend architectures, microservices, and
             financial ecosystems. Transforming complex requirements into
-            scalable Java & Spring Boot solutions.
+            scalable solutions.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
