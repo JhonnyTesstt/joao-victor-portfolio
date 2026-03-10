@@ -1,7 +1,7 @@
 export default function Experience() {
   const experiences = [
     {
-      title: "Analista e Desenvolvedor de Software",
+      title: "Desenvolvedor Full Stack",
       company: "Fóton Informática",
       location: "São Paulo, Brasil",
       period: "2023 — Present",

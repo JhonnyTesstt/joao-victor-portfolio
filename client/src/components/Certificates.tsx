@@ -5,7 +5,6 @@ interface Certificate {
   id: string;
   title: string;
   platform: string;
-  icon: string;
   date: string;
   url: string;
   category: "programming" | "ai" | "database" | "design" | "education" | "other";
@@ -16,7 +15,6 @@ const certificates: Certificate[] = [
     id: "java-nlw",
     title: "Java NLW 2025",
     platform: "Rocketseat",
-    icon: "☕",
     date: "Fevereiro 2025",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/tWbMYCWLhEYTIBaY.pdf",
     category: "programming",
@@ -25,7 +23,6 @@ const certificates: Certificate[] = [
     id: "asp-net",
     title: "ASP.NET",
     platform: "Rocketseat",
-    icon: "🔷",
     date: "Março 2025",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/HqiSGPoeXEwNTLyl.pdf",
     category: "programming",
@@ -34,7 +31,6 @@ const certificates: Certificate[] = [
     id: "ia-immersion",
     title: "Imersão de IA",
     platform: "Alura",
-    icon: "🤖",
     date: "Outubro 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/eqaJZIQeaNWewxDs.pdf",
     category: "ai",
@@ -43,7 +39,6 @@ const certificates: Certificate[] = [
     id: "ia-generativa",
     title: "IA Generativa",
     platform: "MIT",
-    icon: "✨",
     date: "Setembro 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/sJYHPuRyyeZqIzTV.pdf",
     category: "ai",
@@ -52,7 +47,6 @@ const certificates: Certificate[] = [
     id: "ia-computational",
     title: "Inteligência Artificial e Computacional",
     platform: "FIAP",
-    icon: "🧠",
     date: "Outubro 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/xLxlQqwKTBMYHLGX.png",
     category: "ai",
@@ -61,7 +55,6 @@ const certificates: Certificate[] = [
     id: "java-environment",
     title: "Ambiente de Desenvolvimento Java",
     platform: "Rocketseat",
-    icon: "☕",
     date: "Setembro 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/shWrIikgEvbahgVS.pdf",
     category: "programming",
@@ -70,7 +63,6 @@ const certificates: Certificate[] = [
     id: "oop-java",
     title: "POO Básica - Java",
     platform: "Alura",
-    icon: "📦",
     date: "Setembro 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/nIQzIoHoPWoRbYfH.pdf",
     category: "programming",
@@ -79,7 +71,6 @@ const certificates: Certificate[] = [
     id: "git-versionamento",
     title: "Git e Versionamento",
     platform: "Rocketseat",
-    icon: "🔀",
     date: "Setembro 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/DgINtCOwyLIdMUMK.pdf",
     category: "programming",
@@ -88,7 +79,6 @@ const certificates: Certificate[] = [
     id: "ia-context",
     title: "IA e o Novo Contexto da Cultura Digital",
     platform: "Bradesco",
-    icon: "🌐",
     date: "Agosto 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/LionEyqWkVAzNCdn.pdf",
     category: "ai",
@@ -97,7 +87,6 @@ const certificates: Certificate[] = [
     id: "IA-productivity",
     title: "Inteligência Artificial e Produtividade",
     platform: "Google",
-    icon: "⚙️",
     date: "Agosto 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/LionEyqWkVAzNCdn.pdf",
     category: "ai",
@@ -106,7 +95,6 @@ const certificates: Certificate[] = [
     id: "oop-python",
     title: "Desenvolvimento OOP - Python",
     platform: "Alura",
-    icon: "🐍",
     date: "Agosto 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/ZqxakjZbJmazvmyq.pdf",
     category: "programming",
@@ -115,7 +103,6 @@ const certificates: Certificate[] = [
     id: "design-thinking",
     title: "Design Thinking para Educadores",
     platform: "Bradesco",
-    icon: "💡",
     date: "Agosto 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/YHLsDPqeoeJgUuYs.pdf",
     category: "design",
@@ -124,7 +111,6 @@ const certificates: Certificate[] = [
     id: "database-admin",
     title: "Administrando Banco de Dados",
     platform: "Bradesco",
-    icon: "🗄️",
     date: "Agosto 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/zoUUcOTwxNCvTRLi.pdf",
     category: "database",
@@ -133,7 +119,6 @@ const certificates: Certificate[] = [
     id: "fullstack",
     title: "FullStack",
     platform: "Rocketseat",
-    icon: "🚀",
     date: "Abril 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/paVHTUWjhYoxrHyT.pdf",
     category: "programming",
@@ -142,7 +127,6 @@ const certificates: Certificate[] = [
     id: "nodejs",
     title: "Node.js",
     platform: "Rocketseat",
-    icon: "🟢",
     date: "Abril 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/isbvEEWFVHCkgZmB.pdf",
     category: "programming",
@@ -151,7 +135,6 @@ const certificates: Certificate[] = [
     id: "reactjs",
     title: "React.js",
     platform: "Rocketseat",
-    icon: "⚛️",
     date: "Abril 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/SiMbQfikOcjCeTIX.pdf",
     category: "programming",
@@ -160,7 +143,6 @@ const certificates: Certificate[] = [
     id: "java",
     title: "Java",
     platform: "Rocketseat",
-    icon: "☕",
     date: "Abril 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/GvhqHGlTRWOSGSss.pdf",
     category: "programming",
@@ -169,7 +151,6 @@ const certificates: Certificate[] = [
     id: "csharp",
     title: "C#",
     platform: "Rocketseat",
-    icon: "🔷",
     date: "Abril 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/rzHuupodCkNOtAQT.pdf",
     category: "programming",
@@ -178,7 +159,6 @@ const certificates: Certificate[] = [
     id: "python",
     title: "Python",
     platform: "Rocketseat",
-    icon: "🐍",
     date: "Abril 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/ZfSzQJxwYUAxjoXI.pdf",
     category: "programming",
@@ -187,7 +167,6 @@ const certificates: Certificate[] = [
     id: "python-pythonando",
     title: "Python Pythonando",
     platform: "Alura",
-    icon: "🐍",
     date: "Abril 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/jBaBjiMzgMGwazqW.png",
     category: "programming",
@@ -196,7 +175,6 @@ const certificates: Certificate[] = [
     id: "html-css-js",
     title: "HTML, CSS e JavaScript",
     platform: "Rocketseat",
-    icon: "🌐",
     date: "Fevereiro 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/EBnTiNPKaIxbpShV.pdf",
     category: "programming",
@@ -205,7 +183,6 @@ const certificates: Certificate[] = [
     id: "ux-design",
     title: "User Experience",
     platform: "FIAP",
-    icon: "🎨",
     date: "Fevereiro 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/LCLLcLZTyKJtaoXo.png",
     category: "design",
@@ -214,7 +191,6 @@ const certificates: Certificate[] = [
     id: "database-implementation",
     title: "Implementando Banco de Dados",
     platform: "Bradesco",
-    icon: "🗄️",
     date: "Março 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/eXdwbZKBLCPqnMvv.pdf",
     category: "database",
@@ -223,19 +199,9 @@ const certificates: Certificate[] = [
     id: "data-modeling",
     title: "Modelagem de Dados",
     platform: "Bradesco",
-    icon: "📊",
     date: "Março 2024",
     url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/SCeZXYHlsVEOYFaH.pdf",
     category: "database",
-  },
-  {
-    id: "diploma",
-    title: "Diploma - Faculdade",
-    platform: "Universidade Cruzeiro do Sul",
-    icon: "🎓",
-    date: "2025",
-    url: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663029627527/oMkOuHXyhSGCHMWH.pdf",
-    category: "education",
   },
 ];
 
@@ -302,9 +268,6 @@ export default function Certificates() {
                     rel="noopener noreferrer"
                     className="group relative bg-card dark:bg-card border border-border dark:border-border rounded-lg p-6 hover:shadow-lg dark:hover:shadow-lg/50 transition-all duration-300 hover:scale-105 cursor-pointer"
                   >
-                    <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                      {cert.icon}
-                    </div>
 
                     <h4 className="text-lg font-semibold text-foreground dark:text-foreground mb-2 line-clamp-2">
                       {cert.title}

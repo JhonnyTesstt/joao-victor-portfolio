@@ -10,8 +10,7 @@ export default function Hero() {
             Hello, I'm João Victor
           </p>
           <h1 className="font-serif text-5xl md:text-7xl font-bold leading-tight mb-6 text-gray-900 dark:text-white">
-            Analista e <br /> <span className="text-primary italic">Desenvolvedor</span> de
-            Software
+            Full Stack <br /> <span className="text-primary italic">Developer</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 max-w-2xl leading-relaxed">
             Specializing in robust backend architectures, microservices, and

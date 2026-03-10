@@ -74,12 +74,11 @@ export default function About() {
                 Perfil Profissional
               </h2>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-                Analista e Desenvolvedor de Software com experiência no setor
-                financeiro, atualmente atuando com Java, Quarkus, Spring Boot,
-                microsserviços e bancos de dados relacionais como PostgreSQL.
-                Tenho experiência prática na construção de APIs REST, integração
-                com Redis e uso de arquitetura orientada a microsserviços em
-                ambientes ágeis.
+                Desenvolvedor Full Stack com experiência no setor
+                financeiro, atualmente atuando com Java, Spring Boot e Angular.
+                Tenho experiência prática na construção de APIs REST, utilização de 
+                ferramentas da AWS integração com Redis e uso de arquitetura orientada 
+                a microsserviços em ambientes ágeis.
               </p>
             </div>
 
